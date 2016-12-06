@@ -1,0 +1,89 @@
+﻿body {
+            background: #4b4545 /*url('Images/Whiteboard.jpg') center no-repeat fixed*/;
+            /*background-size:cover;*/
+}
+
+
+.button{
+    background-color: dodgerblue;
+    border: none;
+color: white;
+	    font-size: 16px;
+    padding: 10px 46px;
+	border-radius: 4px;
+
+}
+
+.btn-primary {
+color: white;
+}
+
+.image {
+    mix-blend-mode: multiply;
+}
+
+#focus {
+        text-align: center;
+	    font-family: sans-serif;
+                background: url('Images/Whiteboard.jpg') center no-repeat ;
+
+            width: 100%;
+    height: 763px;
+}
+
+  #LabelWordToGuess {
+        font-size:70pt;
+    }
+    #LabelStatus {
+        font-size:25pt;
+    }
+        #LabelMissWords {
+        font-size:20pt;
+    }
+
+
+  @media (max-width: 1153px) {
+    #LabelWordToGuess {
+        font-size: 50pt;
+    }
+}
+
+@media (max-width: 890px) {
+    #LabelWordToGuess {
+        font-size: 35pt;
+    }
+             #LabelStatus {
+        font-size:20pt;
+    }
+                #LabelMissWords {
+        font-size:15pt;
+    }
+
+}
+@media (max-width: 634px) {
+      #LabelWordToGuess {
+        font-size: 20pt;
+    }
+               #LabelStatus {
+        font-size:15pt;
+    }
+
+}
+@media (max-width: 575px) {
+    #LabelCategories {
+        display:none;
+    }
+}
+
+        @media (max-width: 320px) {
+    #LabelWordToGuess {
+        font-size:15pt;
+    }   
+     #LabelStatus {
+        font-size:15pt;
+    }
+        #LabelMissWords {
+        font-size:10pt;
+    }
+
+}
